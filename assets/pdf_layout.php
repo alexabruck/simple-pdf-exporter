@@ -27,9 +27,9 @@ if(!function_exists('create_pdf_layout')) {
 		<!-- CONTENT -->
 		<div class="pdf_export_wrapper main_div">
 			
-			<h2><a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
+			<h2 style="color: red"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
 
-			<p class="pdf_export_p"><?php echo $post->post_content; ?></p>
+			<p class="pdf_export_p"><?php echo $post->submissiontext; ?></p>
 
 		</body>
 		</html>
